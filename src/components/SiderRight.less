@@ -1,0 +1,68 @@
+.sider_view {
+    min-width: 150px;
+    padding: 25px 25px 25px 0;
+}
+
+.sider_header {
+    padding-left: 25px;
+    color: rgb(91, 103, 121);
+}
+
+.spot_left {
+    margin: 12px 0;
+    width: 25px;
+    height: 20px; // padding: 12px 0;
+    float: left;
+    overflow: hidden;
+}
+
+// .spot_listouter {
+//     width: 8px;
+//     height: 16px;
+// }
+
+.spot_list {
+    width: 3px;
+    height: 5px;
+    margin: 8px 0;
+    background: rgb(35, 153, 241);
+    border-radius: 0px 6px 6px 0;
+    box-shadow: 1px 1px  10px #fff; 
+}
+
+.icon_setting {
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+}
+
+.sider_item {
+    width: 150px; // float: right;
+    a {
+        color: rgba(255, 255, 255, .45);
+        transition-property: color 1s ease 0s;
+        /* Firefox 4 */
+        -moz-transition: color 1s ease 0s;
+        /* Safari and Chrome */
+        -webkit-transition: color 1s ease 0s;
+        /* Opera */
+        -o-transition: color 1s ease 0s;
+    }
+}
+
+.sider_item a:hover {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+.sider_item:last-child {
+    border: none !important;
+}
+
+.sider_footer {
+    background: rgb(42, 53, 71);
+    margin: 0px;
+}
+
+.sider_icon {
+    composes: icon_setting;
+}
